@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import EmployeeList from "./pages/EmployeeList";
 import EmployeeDetails from "./pages/EmployeeDetails";
-import Home from "./pages/Home"; // ✅ Import Home
+import Home from "./pages/Home";
 import type { Employee } from "./pages/EmployeeList";
 
 const App: React.FC = () => {
@@ -22,7 +22,7 @@ const App: React.FC = () => {
     <Router>
       <Navbar />
       <Routes>
-        {/* ✅ Add Home route */}
+     
         <Route path="/" element={<Home />} /> 
 
         <Route path="/dashboard" element={<Dashboard />} />

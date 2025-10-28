@@ -16,8 +16,8 @@ const EmployeeCard: React.FC<EmployeeProps> = ({
   name,
   role,
   department,
-  email,
-  phone,
+  // email,
+  // phone,
   image,
   onClick,
 }) => {
